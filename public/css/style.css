@@ -1,0 +1,33 @@
+#form-signin {
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+}
+body{background: #EEE}
+.main-container{background: #FFF; min-height: 500px; margin: 20px auto}
+.panel.hide-body .panel-body{display: none}
+
+.hide-std .glyphicon-eye-open{display: inline-block}
+.glyphicon-eye-open{display: none}
+.hide-std .glyphicon-eye-close{display: none}
+.glyphicon-eye-close{display: inline-block}
+.panel .glyphicon-plus{display: none}
+.panel .glyphicon-minus{display: inline-block}
+.panel.hide-body .glyphicon-plus{display: inline-block}
+.panel.hide-body .glyphicon-minus{display: none}
+.panel-heading a {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    margin-top: -10px;
+    text-align: center;
+    width: 42px;
+}
+.panel-heading a.block-view{margin-right: -16px;}
+.panel-heading a:hover{background: rgba(255, 255, 255, 0.4);}
+.side-bar ul{list-style: none; color: #999; margin: 0; padding: 0; line-height: 36px;}
+.side-bar{padding: 10px; background: #f5f5f5}
+.side-bar .glyphicon{ margin-right: 10px}
+.side-bar li.active{color: #33b5e5; font-weight: bold}

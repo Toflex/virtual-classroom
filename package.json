@@ -1,0 +1,23 @@
+{
+	"name": "virtual-classroom",
+	"version": "1.0.0",
+	"description": "A virtual classroom writen in Nodejs and Reactjs",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index"
+	},
+	"keywords": [
+		"virtual",
+		"classroom"
+	],
+	"author": "Nhokchien",
+	"license": "MIT",
+	"dependencies": {
+		"ejs": "2.5.5",
+		"express": "4.14.0",
+		"socket.io": "1.7.2",
+		"mysql": "2.12.0"
+	},
+	"repository": "abc"
+}
